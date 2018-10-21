@@ -22,11 +22,9 @@ public class I {
     }
     public static void main(String[] args) {
         Scanner Reader = new Scanner(System.in);
-        int ipB1,ipB2,ipB3,ipB4;
-        String ip;
+        int ipB1,ipB2,ipB3,ipB4,i=0;
+        String ip,c1 ="",c2 ="",c3 ="",c4 ="";
         ip = Reader.next();
-        String c1 ="",c2 ="",c3 ="",c4 ="";
-        int i=0;
         for (; ip.charAt(i) != '.'; i++) {
             c1 = c1+ip.charAt(i);
         }

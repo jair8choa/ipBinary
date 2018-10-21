@@ -44,8 +44,7 @@ public class I {
         ipB2=Integer.parseInt(c2);
         ipB3=Integer.parseInt(c3);
         ipB4=Integer.parseInt(c4);
-        int divi=16;
-
+        
         String binario = Cadena(ipB1)+Cadena(ipB2)+Cadena(ipB3)+ Cadena(ipB4);
         System.out.println(binario);
       
